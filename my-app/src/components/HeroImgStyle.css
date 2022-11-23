@@ -1,0 +1,497 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ 
+ .mask{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+ }
+ .into-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+ }
+
+.hero .content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    left: 20%;
+    top: 60%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hero .content h4{
+    font-size: 30px; 
+   padding-bottom: 10px;
+   font-style: italic;
+   font-weight: 300;
+}
+
+.hero .content h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-weight: 350;
+}
+
+.hero .content h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-style: italic;
+    color: white;
+    font-weight: 350;
+}
+
+
+
+.hero .content p{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.hero .content button{
+    font-size: 20px;
+    font-style: italic;
+    background-color: white;
+    color: black;
+    border: 0;
+    padding: 5px 15px 5px 15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 50px;
+}
+
+.hero .content button:hover{
+    color: #088178;
+}
+
+ .hero{
+    height: 100%;
+    width: 100%;
+ }
+
+ video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+
+ .product1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../assets/feutreproduct.jpg);
+    width: 28%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    margin-left: 37%;
+    border-radius: 50px;
+}
+
+.product1 h2{
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+}
+
+.product1 h2 span{
+    color: #088178;
+}
+
+
+.product1-1{
+    text-align: center;
+    
+}
+
+.section-1-1{
+    padding: 40px 80px;
+}
+
+.product1-1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.product1-1 .pro{
+    width: 23%;
+    height: 300px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.3s ease;
+    position: relative;
+}
+
+.product1-1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.25 );
+}
+
+.product1-1 .pro img{
+    width: 50%;
+    border-radius: 20px;
+}
+
+.product1-1 .pro .des span {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.product1-1 .pro .des h5 {
+    padding-top: 7px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.product1-1 .pro .des h6{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+.section-banner1{
+    margin: 40px 0;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../assets/banner.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h3{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 10px 0;
+    font-style: italic;
+    font-weight: 300;
+
+}
+
+.banner h4{
+    font-size: 30px;
+    color: white;
+    padding: 10px 0;
+    font-style: italic;
+}
+
+.banner h4 span{
+    color: red;
+    font-style: italic;
+    font-weight: 400;
+}
+
+button.banner--1{
+    color: #000000;
+    font-size: 20px;
+    padding: 5px 30px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    margin-top: 25px;
+}
+
+button.banner--1:hover{
+    background: #088178;
+    color: #ffffff;
+}
+
+.product2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../assets/latestgadget.jpg);
+    width: 28%;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    margin-left: 37%;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product2 h2{
+    color: white;
+    font-style: italic;
+}
+
+.product2 h2 span{
+    color: #4490dc;
+    font-style: italic;
+}
+
+.product2 p{
+    color: white;
+    margin-top: 5px;
+}
+
+.sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    
+}
+
+
+.sm-banner h4{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.sm-banner h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.sm-banner span{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.sm-banner .section-1-1 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../assets/small\ banner\ pic\ 2.jpg);
+    min-width: 600px;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+    float: right;
+}
+
+.sm-banner .section-1-1 .banner-box__1{
+    background-image: url(../assets/small_banner_1.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 600px;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 30px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.sm-banner .banner-box__1 h4{
+    font-style: italic;
+}
+
+.sm-banner .banner-box__1 h2{
+    font-style: italic;
+}
+
+.sm-banner .banner-box__1 span{
+    font-style: italic;
+}
+
+
+.sm-banner .banner-box h4{
+    font-style: italic;
+    color: #1c267e;
+}
+
+.sm-banner .banner-box h2{
+    font-style: italic;
+    color: #1c267e;
+    
+}
+
+.sm-banner .banner-box span{
+    font-style: italic;
+    color: #1c267e;
+}
+button.white{
+    color: #000000;
+    font-size: 20px;
+    padding: 5px 30px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+.sm-banner .banner-box:hover button{
+    background: #088178;
+    border: 1px solid #088178;
+}
+
+.sm-banner .banner-box__1:hover button{
+    background: #088178;
+    border: 1px solid #088178;
+}
+
+.banner3 .banner-box_1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../assets/small\ mini\ 3\ banner\ pic\ 1.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.banner3 .banner-box_1:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.50 );
+}
+
+button.banner3_1{
+    cursor: pointer;
+    border: 1px solid #40e42a;
+    background-color: transparent;
+    height: 25px;
+    width: 100px;
+    color: #3498db;
+    font-size: 1.25em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+}
+
+button.banner3_1:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.50 );
+}
+
+.banner3 .banner-box_2 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../assets/small\ mini\ 3\ banner\ pic\ 2.jpg);
+    min-width: 30%;
+    height: 30.0vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.banner3 .banner-box_2:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.50 );
+}
+
+button.banner3_2{
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    height: 25px;
+    width: 100px;
+    color: #de5353;
+    font-size: 1.25em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+}
+
+button.banner3_2:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.50 );
+}
+
+.banner3 .banner-box_3 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../assets/small\ mini\ 3\ banner\ pic\ 3.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.banner3 .banner-box_3:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.50 );
+}
+
+button.banner3_3{
+    cursor: pointer;
+    border: 1px solid #c45d5d;
+    background-color: transparent;
+    height: 25px;
+    width: 100px;
+    color: #daff20;
+    font-size: 1.25em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+}
+
+button.banner3_3:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.50 );
+}
+
+.banner3 h2{
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.banner3 h3{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+    margin-bottom: 50px;
+}
